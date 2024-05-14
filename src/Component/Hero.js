@@ -2,6 +2,7 @@ import React from "react";
 export default function Hero()
 {
     return(
+        <div className="heroContainer">
         <div className="hero">
             <div className="hero-part1">
                 <h1>The home of gaming <br />and esports jobs</h1>
@@ -17,6 +18,10 @@ export default function Hero()
             <div className="hero-part2">
                 <img src="./images/heroImage.svg" alt="image" />
             </div>
+        </div>
+        <div className="heroFooter">
+            <img src="./images/heroFooterImg.svg" alt="image" />
+        </div>
         </div>
     )
 }
