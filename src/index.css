@@ -197,6 +197,7 @@
   margin: auto;
   height: 500px;
   margin-top: -650px;  
+  background-color: pink;
 }
 .secondDiv{  
   text-align: center;
@@ -266,7 +267,20 @@
 .pad{
   padding-left: 3px;
 }
-
+.secondDiv2{
+  max-width: 1070px;
+  background-color: red;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.secondDiv2 h1{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26.88px;
+}
+.thirdpage{
+  background-color: red;
+}
 @media(max-width:1245px)
 {
   .background{

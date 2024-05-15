@@ -120,10 +120,17 @@ export default function Second(){
                     <img src={go.img2} alt="img2" />
                     <p>{go.Country}</p>
                 </div>
-            </div>           
+            </div>         
            
        ))}
        </div>
+        {/* <div className="secondDiv2">
+            <div className="secondDiv2-part1">
+                <h1>Promote Your job</h1>
+                <p>Listings that are promoted average over 200% more views and 150% more applications.</p>
+            </div>
+            <img src="" alt="" />
+        </div> */}
         </div>
         </div>
     )
