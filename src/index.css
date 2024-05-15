@@ -4,12 +4,21 @@
     font-weight: normal;
     src: local('CircularStd Book'), url("/public/fonts/CircularStd-Book.otf") ;
 }
+@font-face {
+  font-family: 'CircularStd Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('CircularStd Medium'), url("/public/fonts/CircularStd-Medium.otf") ;
+}
 
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "CircularStd Book";  
+  font-family: "CircularStd Book";   
+}
+.abu{
+  /* overflow: hidden; */
 }
 .background{
   background-color: rgba(25, 25, 27, 1);
@@ -69,11 +78,12 @@
   /* background-color: red;  */
   margin: auto; 
   max-width: 1170px;
+  position: relative;
 }
 .hero{
   /* max-width: 1170px; */
   /* margin: auto; */
-  height: 800px;
+  /* height: 800px; */
   /* background-color: yellow; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -138,43 +148,41 @@
 }
 .hero-part2{
   /* background-color: red; */
-  padding-top: 77px;
-  position: relative;
+  /* padding-top: 77px; */
+  position: relative;  
   /* margin-right: 50px; */
 }
 .hero-part2 img{
   position: absolute;
   width: 688.83px;
   /* height: 636px; */
+  top: 76px;
   left: -70px;
 }
 .heroFooter{
-  width: 1170px;
+  /* width: 1170px; */
   height: 123px;
   border-radius: 12px;
-  /* margin: auto;   */
-  margin-top: -20px;
+  margin: auto;  
+  margin-top: 245px;
   background-color: white;
-  position: absolute; 
+  /* position: absolute;  */
   display: flex; 
   align-items: center;
-  justify-content: center;  
+  justify-items: center; 
+  /* top: 770px;  */
+  z-index: 9;
+}
+.heroFooter img{
+  width: 100%;
 }
 .secondContainer{
   height: 800px;
-  /* background-color: yellow; */
-  /* position: absolute; */
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: center; */
-  /* align-items: center; */
 }
 .second{
   height: 800px;
-  /* background-color: yellow; */
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  
+  grid-template-columns: repeat(2, 1fr);  
 }
 .second-part1{
   background-color: rgba(255, 238, 217, 0.24);
@@ -182,21 +190,19 @@
   border-radius:0px, 0px, 26px, 0px;
 }
 .second-part2{
-  /* background-color: blue; */
   height: 800px;
 }
-.faltu{
-  
+.faltu{  
   max-width: 1140px;
   margin: auto;
   height: 500px;
   margin-top: -650px;  
 }
 .secondDiv{  
-  width: 1140px;
   text-align: center;
 }
 .secondDiv h1{
+  font-family: "CircularStd Medium";
   font-weight: 400;
   font-size: 42px;
   line-height: 52.08px;
@@ -214,12 +220,11 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding-top: 70px;
-  /* background-color: red; */
   justify-items: center;
 }
 .boxes-parts{
   width: 330px;
-  height: 156px;
+  /* height: 156px; */
   border-radius: 10px;
   background-color: white;
   margin-bottom: 40px;
@@ -227,8 +232,9 @@
   border: 1px solid rgba(0, 0, 0, 0.06);
 }
 .boxes-parts h1{
+  font-family: "CircularStd Medium";
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 28.8px;
   letter-spacing: 0.4%;
 }
@@ -263,6 +269,9 @@
 
 @media(max-width:1245px)
 {
+  .background{
+    height: 836px;
+  }
   .header{
     max-width: 1000px;
     padding: 40px 10px 10px 10px;
@@ -270,8 +279,8 @@
   .heroContainer{
     max-width: 1000px;
     padding: 0px 10px;
-    height: 710px;
-  }
+    /* height: 710px; */
+  }  
   .hero-part1{
     padding-top: 150px;
   }
@@ -280,25 +289,38 @@
   }
   .hero-part2 img{
     width: 100%;
-    left: 0;
-    
+    left: 0; 
+    top: 125px;   
+  }
+  .heroFooter{
+    margin-top: 187px;
+  }
+  .faltu{
+    max-width: 1000px;
+    padding: 0px 10px;
+    /* background-color: red; */
+  }
+  .boxes-parts{
+    max-width: 297px;
   }
 }
 @media(max-width:1000px){
   .background{
-    height: 1500px;
+    height: 1630px;
   }
   .header{
    /* background-color: red; */
    max-width: 900px;
    padding: 40px 20px 10px 20px;
   }
-  .hero{
+  .heroContainer{
     max-width: 900px;
-    display: flex;
+    /* display: flex; */       
+    padding: 0px 20px;
+  }
+  .hero{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 0px 20px;
   }
   .hero-part1{
     padding-top: 123px;
@@ -306,10 +328,25 @@
   .hero-part2{
     padding-top: 0;
   }
+  .heroFooter {
+    margin-top: 1009px;
+  }
+  .faltu{
+    max-width: 900px;
+    padding: 0px 20px;
+  }
+  .boxes{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .second-part1 {
+    height: 990px;
+  }
+}
   @media(max-width:800px)
   {
     .background {
-      height: 1456px;
+      height: 1550px;
     }
     .header-part1 img{
       height: 40px;
@@ -325,14 +362,29 @@
       height: 60px;
       width: 60px;
     }
+    .heroFooter {
+      margin-top: 909px;
+    }
+    .boxes-parts{
+      max-width: 260px;
+    }
+    .boxes-parts h1 {
+      font-size: 15px;
+    }
+    .boxes-parts-links h5{
+      font-size: 14px;
+    }
   }
   @media(max-width:600px)
   {
     .background {
-      height: 1226px;
+      height: 1267px;
     }
     .header{
       max-width: 550px;
+    }
+    .heroContainer{
+      max-width:550px ;
     }
     #part1 img {
       height: 35px;
@@ -359,11 +411,36 @@
     .hero-part2 img{
       /* height: 0; */
     }
+    .heroFooter {
+      margin-top: 687px;
+      height: 87px;
+    }
+    .faltu{
+      max-width: 550px;
+    }
+    .secondDiv p{
+      font-size: 15px;
+    }
+    .secondDiv h1{
+      font-size: 37px;
+    }
+    .boxes-parts {
+      max-width: 185px;
+    }
+    .boxes-parts h1 {
+      font-size: 10px;
+    }
+    .boxes-parts-links h5 {
+      font-size: 12px;
+    }
+    .boxes-parts-links p{
+      font-size: 11px;
+    }
   }
   @media(max-width:429px)
   {
     .background {
-      height: 1042px;
+      height: 1078px;
     }
     .header{
       max-width: 400px;
@@ -389,15 +466,34 @@
     }
     .hero-part1-buttons{
       display: flex;
-      flex-direction: column;
-      
+      flex-direction: column; 
+      max-width: 300px;     
     }
     .hero-part1-buttons button {
       padding: 10px 33px;
       font-size: 14px;
       margin-bottom: 20px;
     }
-    
+    .heroFooter {
+      margin-top: 492px;
+      height: 60px;
+    }
+    .second-part1 {
+      height: 1411px;
+    }
+    .faltu{
+      max-width: 400px;
+    }
+    .secondDiv h1 {
+      font-size: 34px;
+    }
+    .secondDiv p {
+      font-size: 14px;
+    }
+    .boxes {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
   }
-}
+
 

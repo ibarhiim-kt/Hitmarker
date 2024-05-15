@@ -7,7 +7,7 @@ import Second from './Component/Second';
 
 function App() {
   return (
-    <div>
+    <div className='abu'>
     <div className="background">
     <Header/>
     <Hero/>
