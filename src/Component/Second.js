@@ -101,7 +101,7 @@ export default function Second(){
             <div className="second-part2">
             </div>
         </div>
-        <div className="faltu">
+        <div className="secondDiv-container">
         <div className="secondDiv">
         <h1>Promoted Jobs</h1>
         <p>These opportunities are shown on every page of our site and shared daily on our Twitter account.</p>        

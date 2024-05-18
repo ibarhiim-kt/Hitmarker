@@ -8,7 +8,7 @@ import ThirdPage from './Component/ThirdPage';
 
 function App() {
   return (
-    <div className='abu'>
+    <div className='mainPage'>
     <div className="background">
     <Header/>
     <Hero/>
