@@ -5,7 +5,10 @@ export default function ThirdPage(){
             
             <div className="thirdpage-part2">
                 <div className="thirdpage-part2-part1">
-                    <h1>"</h1>
+                    <div id="h1">
+                        <img src="./images/comma.svg" alt="" />
+                    </div>
+                    
                     <img id="thirdPageImg1" src="./images/Image.png" alt="img" />
                     <img id="dots" src="./images/dots.svg" alt="img" />
                 </div>
