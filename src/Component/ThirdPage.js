@@ -2,7 +2,7 @@ import React from "react";
 export default function ThirdPage(){
     return(
         <div className="thirdpage">
-            <div className="thirdpage-part1">
+            {/* <div className="thirdpage-part1">
             <div className="thirdpage-part1-paras">
                 <h6>Promote Your job</h6>
                 <p>Listings that are promoted average over 200% more views and 150% more applications.</p>
@@ -10,12 +10,12 @@ export default function ThirdPage(){
             <div className="thirdpage-part1-img">
             <img src="./images/arrow1.svg" alt="image" />
             </div>
-            </div>
+            </div> */}
             <div className="thirdpage-part2">
                 <div className="thirdpage-part2-part1">
                     <h1>"</h1>
-                    <img id="thirdPageImg1" src="./images/thirdPageImg1.svg" alt="img" />
-                    <img id="dots" src="./images/dots.svg" alt="images" />
+                    <img id="thirdPageImg1" src="./images/Image.png" alt="img" />
+                    <img id="dots" src="./images/dots.svg" alt="img" />
                 </div>
                 <div className="thirdpage-part2-part2">
                     <div className="thirdpage-part2-part2-para1">
