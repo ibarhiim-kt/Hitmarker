@@ -16,12 +16,13 @@ export default function ThirdPage(){
                     <div className="thirdpage-part2-part2-para1">
                         <h1>What pepole say</h1>
                         <div className="thirdpage-part2-part2-para1-img">
-                        <div id="arro2" >
+                        <div id="arro2" className="cursor">
                             <img src="./images/arro2.svg" alt="" />
                         </div>
-                        <div id="arro3">
+                        <div id="arro3" className="cursor">
                             <img src="./images/arro3.svg" alt="" />
                         </div>
+                        
                         </div>
                     </div>
                     <div className="thirdpage-part2-part2-para2">
