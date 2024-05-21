@@ -32,14 +32,14 @@ export default function Footer(){
             <div className="fourthCol footerCols">
             <h1>Discover Our App</h1>
                 <div className="fourthCol-buttons">                    
-                    <button id="footerPlayButton">
+                    <button id="footerPlayButton" className="cursor">
                         <img src="./images/playstore.svg" alt="img" />
                         <div className="buttonPara">
                         <p id="playPara">GET IT ON</p>
                         <p id="big">Google Play</p>
                         </div>
                     </button>
-                    <button>
+                    <button className="cursor">
                         <div id="appleDot">
                         <img src="./images/appleDot.svg" alt="img" />
                         <img src="./images/apple.svg" alt="img" />
@@ -51,16 +51,14 @@ export default function Footer(){
                     </button>
                 </div>
                 <div className="socialLogos">                    
-                    {/* <img  src="./images/fb.svg" alt="" />
-                    <img id="insta" src="./images/insta.svg" alt="" />
-                    <img src="./images/twitter.svg" alt="" /> */}
-                    <div id="facebook">
+                    
+                    <div id="facebook" className="cursor">
                         <img src="./images/facebook1.svg" alt="img" />
                     </div>
-                    <div id="instagram">
+                    <div id="instagram" className="cursor">
                         <img src="./images/instagram1.svg" alt="" />
                     </div>
-                    <div id="twitter">
+                    <div id="twitter" className="cursor">
                         <img src="./images/twitter1.svg" alt="" />
                     </div>
                 </div>
@@ -70,14 +68,14 @@ export default function Footer(){
         <div className="fourthCol footerCols discoverextra">
             <h1>Discover Our App</h1>
                 <div className="fourthCol-buttons">                    
-                    <button id="footerPlayButton">
+                    <button id="footerPlayButton" className="cursor">
                         <img src="./images/playstore.svg" alt="img" />
                         <div className="buttonPara">
                         <p id="playPara">GET IT ON</p>
                         <p id="big">Google Play</p>
                         </div>
                     </button>
-                    <button>
+                    <button className="cursor">
                         <div id="appleDot">
                         <img src="./images/appleDot.svg" alt="img" />
                         <img src="./images/apple.svg" alt="img" />
@@ -92,13 +90,13 @@ export default function Footer(){
                     {/* <img  src="./images/fb.svg" alt="" />
                     <img id="insta" src="./images/insta.svg" alt="" />
                     <img src="./images/twitter.svg" alt="" /> */}
-                    <div id="facebook">
+                    <div id="facebook" className="cursor">
                         <img src="./images/facebook1.svg" alt="img" />
                     </div>
-                    <div id="instagram">
+                    <div id="instagram" className="cursor">
                         <img src="./images/instagram1.svg" alt="" />
                     </div>
-                    <div id="twitter">
+                    <div id="twitter" className="cursor">
                         <img src="./images/twitter1.svg" alt="" />
                     </div>
                 </div>
