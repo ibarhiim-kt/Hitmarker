@@ -394,8 +394,32 @@
   top: 110px;
   width: 100%;
 }
-.thirdpage-part2-part2-para1-img #arrow2{
+#arro2{
+  height: 15px;
+  width: 15px;
+  padding: 25px;
+  background: rgba(255, 116, 104, 0.12);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#arro3{
+  height: 15px;
+  width: 15px;
+  padding: 25px;
+  background-color: rgba(255, 104, 16, 1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.thirdpage-part2-part2-para1-img #arro2{
   margin-right: 23.15px;
+}
+.thirdpage-part2-part2-para1-img{
+  display: flex;
+  
 }
 .thirdpage-part2-part2-para1 h1{
   font-weight: 500;
@@ -1028,13 +1052,13 @@
       max-width: 400px;
     }
     .hero-part1 h1 {
-      font-size: 30px;
-      line-height: 39.8px;
+      font-size: 37px;
+      line-height: 49.8px;
     }
     .hero-part1 p {
       font-size: 14px;
       line-height: 21.6px;
-      max-width: 278px;
+      max-width: 306px;
     }
     .hero-part1-buttons{
       display: flex;
